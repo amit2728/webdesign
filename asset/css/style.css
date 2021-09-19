@@ -1,0 +1,95 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo{
+	/* border-style:solid; */
+}
+.cname{
+	/* border-style:solid; */
+	
+	text-align:center;
+	height:150px;
+	padding:45px;
+	font-size:40px;
+	font-weight:bold;
+	background-color:#FBAB34;
+	color:white;
+}
+
+.menu
+{
+/* border-style:solid; */
+margin-top:10px;
+height:50px;
+text-align:center;
+padding-top:10px;
+font-size:20px;
+font-weight:bold;
+background-color:#FBCB04;
+}
+.menu a
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+
+.banner{
+	margin-top:10px;
+}
+
+.about{
+	margin-top:10px;
+	text-align:justify;
+}
+
+
+.section{
+	/* border-style:solid; */
+	height:50px;
+	text-align:center;
+	padding:10px;
+	font-size:20px;
+	font-weight:bold;
+	background-color:#FBAB34;
+	color:white;
+	margin-top:10px;
+}
+
+.service{
+	margin-top:20px;
+	padding:5px;
+	box-shadow:0px 0px 8px 5px #CAC7C7;
+	transition-property:transform;
+	transition-duration:3s;
+}
+.service:hover{
+	transform:scale(1.1);
+}
+.footer{
+	
+	text-align:center;
+	padding:10px;
+	font-size:20px;
+	font-weight:bold;
+	background-color:#adff2f;
+	color:white;
+	margin-top:10px;
+}
+
+.contact{
+	margin-top:10px;
+}
+#whatsapp{
+	position:fixed;
+	right:30px;
+	bottom:100px;
+}
+#telephone{
+	position:fixed;
+	right:30px;
+	bottom:30px;
+}
